@@ -4,7 +4,7 @@ from ride import main
 
 def test_GO():
     with patch('ride.open', mock_open(read_data='cometq\nHVNGAT\n'), create=True):
-        assert "GO" == main()
+        assert 'GO' == main()
 
 
 def test_STAY():
