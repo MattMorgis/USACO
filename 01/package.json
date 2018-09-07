@@ -1,0 +1,20 @@
+{
+  "name": "pyjest",
+  "version": "0.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "23.x"
+  },
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "py"
+    ],
+    "runner": "<rootDir>/../pytest-runner",
+    "testMatch": [
+      "**/?(*_)test.py"
+    ]
+  }
+}
